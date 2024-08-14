@@ -1,0 +1,434 @@
+*{
+    margin: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+/* home navsection */
+
+#containers{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(./imgs/background\ container.webp);
+    
+    
+}
+.page1{
+    width: 100%;
+    height: 100%;
+}
+#navv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(192, 95, 27);
+    
+    
+}
+.logo{
+    width: 100px;
+}
+.listitems{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+    font-family: "Oleo Script", system-ui;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.links:hover{
+    color: black;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #ffee10;
+    
+}
+/* home part 1 */
+.homecontent{
+    margin: 0px 0px 0px 8%;
+}
+ 
+
+#username{
+    margin-top: 5px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgb(162, 54, 54);
+    font-family: "Oleo Script", system-ui;
+}
+#lname{
+    color: rgb(68, 44, 8);
+    font-family: "Oleo Script", system-ui;
+    text-shadow: 0 0 5px #67bddf;
+    
+}
+.dott{
+    text-shadow:0 0 5px #80c2dd;
+}
+#userdetails{
+    margin-top: 10px;
+    line-height: 2;
+    font-weight: 700;
+    font-size: larger;
+    color: rgb(150, 69, 69);
+}
+#download{
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(86, 16, 16);
+    background-color: rgb(105, 90, 90);
+    font-family: "Oleo Script", system-ui;
+    margin-top: 100px;
+    display: inline-block;
+}
+.shopnow_btn{
+    
+    width: 200px;
+    height: 60px;
+    font-size:x-large;
+
+    
+}
+#download:hover{
+    background-color: rgb(166, 220, 49);
+}
+/* home part2 */
+.homeimage{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+ 
+/* gallery */
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(150, 179, 179);
+
+}
+
+
+#gal{
+    font-family: "Oleo Script", system-ui;
+    color: rgb(179, 37, 37);
+    font-weight: 800px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+
+}
+#grid1{
+    background-image: url(./imgs/grid1.jpg);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    }
+
+ #grid2{
+        background-image: url(./imgs/grid2.jpg);
+        background-size: cover;
+    
+        height: 300px;
+        width: 300px;
+     }
+    #grid3{
+        background-image: url(./imgs/grid3.webp);
+        background-size: cover;
+    
+        height: 660px;
+        width: 400px;
+        margin-right: 250px;
+     }
+    #grid4{
+        background-image: url(./imgs/grid4.webp);
+        background-size: cover;
+    
+        height: 350px;
+        width: 300px;
+        margin-top: -360px;
+    }
+    #grid5{
+        background-image: url(./imgs/grid5.jpeg);
+        background-size: cover;
+    
+        height: 350px;
+        width: 300px;
+        margin-top: -360px;
+        padding-bottom: 15%;
+     }
+    #grid{
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows: repeat(2,auto);
+    
+        margin-top: 40px;
+        margin-left: 400px;
+     }
+     /* best seller */
+    #bestseller{
+        background-color: #D0A77B;
+    }
+    .bestseller_icon:hover{
+
+        height: 420px;
+        width: 370px;
+        position: relative;
+      background: rebeccapurple;
+     
+      border-radius: 3%;
+      border:5px solid #b68c5e;
+      color: white;
+      font-family: Verdana;
+      font-weight: bold;
+      font-size: 50px;
+      cursor: grab;
+      padding: 0;
+      transition: 500ms;
+    
+    }
+        
+        
+    #best{
+        text-align: center;
+        margin-top: 90px;
+        font-size: 50px;
+        color: rgb(179, 37, 37);;
+        font-family: "Oleo Script", system-ui;
+     }
+     .topsell{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 30px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .oneshake{
+        font-family: "Oleo Script", system-ui;
+        color: grey;
+    }
+    .twoshake{
+        font-family: "Oleo Script", system-ui;
+        color: grey;
+    }
+    .threeshake{
+        font-family: "Oleo Script", system-ui;
+        color: grey;
+    }
+    .fourdessert{
+        font-family: "Oleo Script", system-ui;
+        color: grey;
+    }
+    .fivedessert{
+        
+        font-family: "Oleo Script", system-ui;
+        color: grey;
+    }
+    .sixdessert{
+        
+        font-family: "Oleo Script", system-ui;
+        color: grey;
+        
+    }
+
+     /* order */
+     #whole{
+        background-image: url(./imgs/bgorder.jpg);
+         }
+         .order{
+    
+            height: 80%;
+            padding-bottom: 15%;
+        }
+    .ordervideo{
+        margin-left: 20px;
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #orderimage{
+        margin-top: 100px;
+        height: 500px;
+        display: flex;
+    }
+    #order1{
+        margin-left: 30px;
+        margin-top: 0px;
+        font-size: 20px;
+        
+    }
+    #ord2{
+        font-family: "Oleo Script", system-ui;
+        color: rgb(83, 69, 69);
+        padding-left: 320px;
+    }
+    .ord3{
+        font-family: "Oleo Script", system-ui;
+        color: rgb(63, 63, 63);
+        padding-left: 320px;
+        font-size: larger;
+    }
+    
+   #form{
+        background-color: rgba(125, 130, 130, 0.582);
+        border-radius: 10px;
+        font-family: "Oleo Script", system-ui;
+    }
+    .box{
+        color: #ffffff;
+        height: 50px;
+        padding-left: 10px;
+        font-size: xx-large;
+
+    }
+    #button1{
+        background-color: #ff4800;
+
+         color: #ffffff;
+        
+                height: 60px;
+                width: 90px;
+                 border: none;
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  border-radius: 10px; font-size: 36px; 
+                cursor: pointer; width: 100%;
+    }
+    #button1:hover{
+        background-color: #74862f;
+    }
+    
+/* delivery */
+#delivery{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url(./imgs/bg\ delivery.webp);
+        padding-top: 1%;
+}
+
+
+.del{
+   
+        font-size: 40px;
+        color:rgb(179, 37, 37);
+        font-family: "Oleo Script", system-ui;
+        margin-left: 100px;
+   
+        line-height: 1.5;
+}
+.delimg{
+    display:inline;
+    padding-left: 150px;
+}
+
+.terms1{
+    font-family: "Oleo Script", system-ui ;
+    font-size: large;
+    color: rgb(44, 44, 44);
+} 
+   p{
+        margin-left:100px ;
+        padding: 20px;
+    }
+/* contact us */
+#support{
+    padding-left: 440px;
+    background-color: #a03b01;
+    margin-bottom:-50px;
+    height: 40px;
+    
+    
+
+}
+.customercare{
+    
+    
+    color: #ffffff;
+    margin-left: 0px;
+    
+}
+
+/* footer */
+.footer-content{
+    background-color: #8d3b04;
+    
+    display: flex; 
+    font-size: 15px; font-family: Arial;
+     margin-top: 40px;
+
+}
+.c1{
+    color: #ffffff;
+    display: flex; flex-direction: column;
+    padding: 15px;
+    justify-content: space-evenly; margin: 0px 100px; font-weight: 20px;
+
+}
+.footer_link{
+    font-style: italic;
+}
+.footer_link:hover{
+    background-image: linear-gradient(to bottom right, red,yellow,purple,green);
+    border-radius: 10px;
+}
+
+#search{
+    margin-left: 150px; margin-top: 50px;
+    display: inline;
+   
+}
+#join{
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+#mail{
+    width: 200px;height: 30px; border-radius: 10px;
+}
+#signbutton{
+    background-color:  rgb(255, 123, 0);color: white;
+   height: 45px; border-radius: 10px;width: 120px; 
+   font-size: larger;
+   font-style: italic;
+   margin-left: 30px;
+}
+#signbutton:hover{
+    background-color: #8d3b04;
+    }
+    .linkus:hover{
+        width: 33;
+        height: 33;
+        text-shadow: 0 0 5px #ffee10;
+        box-shadow: 0 0 5px #ffee10;
+        color: #ffee10;
+    }
+     /* scrollbar */
+
+    ::-webkit-scrollbar{
+        width: 10px;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: rgb(159, 144, 199);
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: rgb(247, 184, 221);
+        border-radius: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
